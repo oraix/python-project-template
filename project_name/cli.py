@@ -8,6 +8,7 @@ Be creative! do whatever you want!
 - Import things from your .base module
 """
 
+from config import settings
 
 def main():  # pragma: no cover
     """
@@ -26,3 +27,4 @@ def main():  # pragma: no cover
         * Run an application (Flask, FastAPI, Django, etc.)
     """
     print("This will do something")
+    print("settings from toml file: ", settings.SAMPLE_VAR)
