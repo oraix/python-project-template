@@ -27,4 +27,4 @@ def main():  # pragma: no cover
         * Run an application (Flask, FastAPI, Django, etc.)
     """
     print("This will do something")
-    print("settings from toml file: ", settings.SAMPLE_VAR)
+    print("Print sample setting in config file: SAMPLE_VAR = ", settings.SAMPLE_VAR)
